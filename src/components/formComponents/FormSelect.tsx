@@ -87,7 +87,7 @@ const FormSelect: React.FC<IFormSelectProps> = ({
           option: (base, { isFocused }) => ({
             ...base,
             fontSize: ".875rem",
-            fontWeight: "500",
+            fontWeight: "500",       
           }),
         }}
         {...selectProps}

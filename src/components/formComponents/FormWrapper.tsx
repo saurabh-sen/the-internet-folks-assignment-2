@@ -28,7 +28,7 @@ const FromWrapper: React.FC<IFormWrapperProps> = ({
   touched,
 }) => {
   return (
-    <FormControl width="100%" mb="24px" isInvalid={isInvalid} {...wrapperProps}>
+    <FormControl width="100%" mb="30px" isInvalid={isInvalid} {...wrapperProps}>
       {label && <FormLabel>{label}</FormLabel>}
       <InputGroup width="100%" alignItems="center">
         {children}
